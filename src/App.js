@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.js";
 import "./App.css";
 const App = () => {
   const [planets, setPlanets] = useState([]);
