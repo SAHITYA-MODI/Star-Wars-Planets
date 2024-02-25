@@ -1,0 +1,179 @@
+/* App.css */
+
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.heading-container {
+  background-color: #263141;
+  margin: auto;
+  height: 100px;
+}
+
+.heading-container h1 {
+  color: #8799af;
+  text-align: center;
+  padding: 20px;
+  font-size: 3em;
+}
+
+#card-section {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.planet-card {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 0.5%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.planet-heading {
+  background-color: #1d2c3b;
+  height: 80px;
+  padding: 20px;
+}
+
+.planet-name {
+  color: #8194a8;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px auto;
+}
+
+.planet-details {
+  padding: 20px;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.p-detail {
+  height: 50px;
+  width: 100%;
+  background-color: #1d2c3b;
+  border-radius: 0.5%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.p-detail p {
+  color: #8194a8;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.resident-container {
+  padding: 20px;
+}
+
+.resident-heading-container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.resident-card {
+  padding: 10px;
+}
+
+.r-detail {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.resident-details {
+  height: 50px;
+  width: 100%;
+  background-color: #107e7d;
+  border-radius: 0.5%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.resident-details h6 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.resident-heading {
+  margin: auto;
+  margin-top: 20px;
+  height: 50px;
+  width: 300px;
+  background-color: #107e7d;
+  border-radius: 0.5%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.resident {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 20px;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+#btn-section {
+  height: 200px;
+  margin-top: 20px;
+  padding: 50px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 100px;
+}
+
+.btn {
+  height: 50px;
+  background-color: #1d2c3b;
+  color: #8194a8;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
